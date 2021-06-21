@@ -1,4 +1,4 @@
-**Play the game [here](https://okay-head.github.io/Guess-my-number/)**
+## Play the game [here](https://okay-head.github.io/Guess-my-number/)
 
 _Instructions_:
 
