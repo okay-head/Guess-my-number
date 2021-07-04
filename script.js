@@ -2,8 +2,13 @@
 
 let x = Math.round(Math.random()*20);
 
+//fire the function when a) user clicks on check  b) Presses enter
 document.querySelector('.button .btn').addEventListener("click",getValue);
-
+window.onkeydown = function (e) {
+   if(e.key=='Enter'){
+      getValue();
+   }
+}
 let hint = document.querySelector('.right .hint');
 
 let input = document.querySelector('.left input[type="number"]');
