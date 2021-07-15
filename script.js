@@ -29,7 +29,6 @@ function getValue(){
          question.innerHTML = x;
          document.body.style.background = "green";
          input.style.background = "green";
-         // console.log('Correct');
       }
       else{
          score--;
