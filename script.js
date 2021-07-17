@@ -18,8 +18,6 @@ let score = document.getElementById('score').innerHTML;
 
 let question = document.getElementById('question');
 
-//instead use functions
-
 function getValue(){
    let z =document.getElementById('input').value;
    if (score>1) {
@@ -66,11 +64,10 @@ function getValue(){
 
 let again = document.querySelector('.flex .btn');
 
-again.addEventListener('click',Rload);
-
-function Rload() {
+again.addEventListener('click',function () {
    window.location.reload();
-}
+});
+
 
 
 
